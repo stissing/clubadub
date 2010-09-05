@@ -1,0 +1,5 @@
+== Clubadub
+
+Clubadub is a web application for amateur soccer clubs. It is going to support signing
+up for practices and matches. It might not become very soccer specific and so might be 
+used by other sports.
