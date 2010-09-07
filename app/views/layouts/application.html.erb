@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Clubadub | <%= @title %> </title>
-  <%= csrf_meta_tag %>
+  <head>
+    <title>Clubadub | <%= page_title %> </title>
+    <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+    <%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
+    <%= csrf_meta_tag %>
   </head>
-<body>
+  <body>
 
-<%= yield %>
+    <%= yield %>
 
-</body>
+  </body>
 </html>
